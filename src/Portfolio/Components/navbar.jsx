@@ -9,13 +9,13 @@ const Navbar = () => {
   const refContainer = useRef(null);
   const heightContainer = useRef(null);
 
-  useEffect(() => {
-    const navHeight = heightContainer.current.getBoundingClientRect().height;
-    const offset = window.pageYOffset;
-    if (offset > navHeight) {
-      heightContainer.current.classList.add("fix-navbar");
-    }
-  });
+  // useEffect(() => {
+  //   const navHeight = heightContainer.current.getBoundingClientRect().height;
+  //   const offset = window.pageYOffset;
+  //   if (offset > navHeight) {
+  //     heightContainer.current.classList.add("fix-navbar");
+  //   }
+  // }, []);
 
   const toggleSidebar = (type) => {
     if (type === "show") {
@@ -26,7 +26,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar" ref={heightContainer}>
+    <nav className="navbar">
       <div className="nav-container">
         <article className="nav-header">
           <div className="logo-container">

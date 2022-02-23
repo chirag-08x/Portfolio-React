@@ -228,20 +228,6 @@ button {
     background-color: var(--clr-primary);
   }
 }
-
-.fix-navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: var(--clr-white);
-  width: 100%;
-  z-index: 10;
-}
-
-.fix-navbar > .nav-body {
-  background-color: var(--clr-white);
-}
-
 /* ########################################################################################################## */
 /* Home */
 
