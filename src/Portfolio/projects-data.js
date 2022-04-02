@@ -16,10 +16,10 @@ const projects = [
   },
   {
     name: "e-commerce site",
-    path: "javascript:void(0)",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
-    github: "javascript:void(0)",
-    image: "./images/dummy.jpeg",
+    path: "https://comfy-store08x.netlify.app/",
+    text: "An online e-commerce where you can choose from variety of products and buy what's best suited for your house. ",
+    github: "https://github.com/chirag-08x/Comfy-Store",
+    image: "./images/main-project-img/prjct-3.png",
   },
   {
     name: "chatBiz",
