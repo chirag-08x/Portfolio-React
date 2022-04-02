@@ -1,4 +1,4 @@
-import { timeline } from "../data";
+import { timeline } from "../helper/data.js";
 
 const Timeline = () => {
   return (

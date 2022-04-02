@@ -1,4 +1,4 @@
-import { externalLinks } from "../data.js";
+import { externalLinks } from "../helper/data.js";
 import { Link } from "react-router-dom";
 import SocialIcons from "./socialIcons.jsx";
 

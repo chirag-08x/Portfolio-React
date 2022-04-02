@@ -1,4 +1,4 @@
-import projects from "../projects-data";
+import projects from "../helper/projects-data.js";
 import { v4 as uuidv4 } from "uuid";
 import { FaGithub, FaHome } from "react-icons/fa";
 import { useEffect } from "react";
@@ -31,12 +31,17 @@ const ProjectSingle = () => {
                   </figure>
                   <FaHome className="home-icon" />
                   <div className="project-info">
-                    <a href={path} className="name" target="_blank">
+                    <a
+                      href={path}
+                      className="name"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       {name}
                     </a>
                     <p className="project-text">{text}</p>
                     <div className="github-link">
-                      <a href={github} target="_blank">
+                      <a href={github} target="_blank" rel="noreferrer">
                         <FaGithub />
                       </a>
                       <p>source code</p>

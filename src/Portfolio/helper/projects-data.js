@@ -15,9 +15,9 @@ const projects = [
     image: "./images/dummy.jpeg",
   },
   {
-    name: "e-commerce site",
+    name: "Comfy Sloth Store",
     path: "https://comfy-store08x.netlify.app/",
-    text: "An online e-commerce where you can choose from variety of products and buy what's best suited for your house. ",
+    text: "An online e-commerce where you can choose from variety of products and buy what's best suited for your house.",
     github: "https://github.com/chirag-08x/Comfy-Store",
     image: "./images/main-project-img/prjct-3.png",
   },

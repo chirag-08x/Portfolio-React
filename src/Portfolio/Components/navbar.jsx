@@ -1,8 +1,8 @@
-import { useRef, useEffect, useState } from "react";
+import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import data from "../data.js";
-import { externalLinks } from "../data.js";
+import data from "../helper/data.js";
+import { externalLinks } from "../helper/data.js";
 import SocialIcons from "./socialIcons.jsx";
 
 const Navbar = () => {

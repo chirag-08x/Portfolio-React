@@ -1,4 +1,4 @@
-import { projects } from "../data";
+import { projects } from "../helper/data.js";
 
 const Projects = () => {
   return (

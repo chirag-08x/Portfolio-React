@@ -1,4 +1,4 @@
-import { externalLinks } from "../data.js";
+import { externalLinks } from "../helper/data.js";
 import SocialIcons from "./socialIcons.jsx";
 
 const Footer = () => {

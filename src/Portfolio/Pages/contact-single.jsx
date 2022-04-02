@@ -1,6 +1,6 @@
-import { personalInfo } from "../data";
+import { personalInfo } from "../helper/data.js";
 import { v4 as uuidv4 } from "uuid";
-import { useForm, ValidationError } from "@formspree/react";
+import { useForm } from "@formspree/react";
 import Modal from "./modal";
 import { useState, useEffect } from "react";
 
@@ -74,10 +74,3 @@ const ContactSingle = () => {
 };
 
 export default ContactSingle;
-
-{
-  /* <ValidationError prefix="Email" field="email" errors={state.errors} />; */
-}
-{
-  /* <ValidationError prefix="Message" field="message" errors={state.errors} />; */
-}

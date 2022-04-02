@@ -1,5 +1,5 @@
-import { frontend } from "../data.js";
-import { otherskills } from "../data.js";
+import { frontend } from "../helper/data.js";
+import { otherskills } from "../helper/data.js";
 
 const Skills = () => {
   return (
