@@ -4,7 +4,6 @@ import {
   FaTelegram,
   FaGithub,
   FaLocationArrow,
-  FaPhoneAlt,
 } from "react-icons/fa";
 
 import { v4 as uuidv4 } from "uuid";
@@ -163,6 +162,6 @@ export const personalInfo = [
     title: "telephone",
     text: ["+91 9045743168, +91 7385262784"],
     icon: <FaEnvelope />,
-    redirect: "javascript:void(0)",
+    redirect: "#",
   },
 ];

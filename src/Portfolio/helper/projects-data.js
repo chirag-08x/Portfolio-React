@@ -9,9 +9,9 @@ const projects = [
   },
   {
     name: "path finding visualizer",
-    path: "javascript:void(0)",
+    path: `#`,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
-    github: "javascript:void(0)",
+    github: "#",
     image: "./images/dummy.jpeg",
   },
   {
@@ -23,9 +23,9 @@ const projects = [
   },
   {
     name: "chatBiz",
-    path: "javascript:void(0)",
+    path: "#",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
-    github: "javascript:void(0)",
+    github: "#",
     image: "./images/dummy.jpeg",
   },
   {
@@ -88,7 +88,7 @@ const projects = [
   },
   {
     name: "slider",
-    path: "javascript:void(0)",
+    path: "#",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
@@ -136,7 +136,7 @@ const projects = [
   },
   {
     name: "stripe menu",
-    path: "javascript:void(0)",
+    path: "#",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
@@ -184,7 +184,7 @@ const projects = [
   },
   {
     name: "infinite scroll",
-    path: "javascript:void(0)",
+    path: "#",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
@@ -216,7 +216,7 @@ const projects = [
   },
   {
     name: "quiz",
-    path: "javascript:void(0)",
+    path: "#",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",

@@ -7,7 +7,7 @@ import SocialIcons from "./socialIcons.jsx";
 
 const Navbar = () => {
   const refContainer = useRef(null);
-  const heightContainer = useRef(null);
+  // const heightContainer = useRef(null);
 
   // useEffect(() => {
   //   const navHeight = heightContainer.current.getBoundingClientRect().height;
