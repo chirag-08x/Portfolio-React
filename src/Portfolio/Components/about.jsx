@@ -7,7 +7,7 @@ const About = () => {
         <figure className="about-hero-img">
           <img
             src="./images/about-img.jpeg"
-            alt="my image"
+            alt="about"
             className="about-img"
           />
         </figure>

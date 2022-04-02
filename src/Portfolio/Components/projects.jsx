@@ -23,7 +23,7 @@ const Projects = () => {
             return (
               <div key={id} className={`single-project project-${index + 1}`}>
                 <a href={path} className="project-link">
-                  <img src={image} alt="" />
+                  <img src={image} alt="project" />
                 </a>
                 <p className="project-name">{title}</p>
               </div>

@@ -40,7 +40,11 @@ const Home = () => {
           </article>
           <article className="user-img">
             <figure className="user-img-container">
-              <img src="./images/hero-img.jpeg" alt="" className="user-image" />
+              <img
+                src="./images/hero-img.jpeg"
+                alt="user"
+                className="user-image"
+              />
             </figure>
           </article>
         </article>
