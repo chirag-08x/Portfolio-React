@@ -1,6 +1,6 @@
-const SocialIcons = ({ externalLinks, classname }) => {
+const SocialIcons = ({ externalLinks }) => {
   return (
-    <article className={classname}>
+    <article className="social-icons">
       {externalLinks.map((social) => {
         const { id, icon, navigate } = social;
         return (

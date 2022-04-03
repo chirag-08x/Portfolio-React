@@ -1,56 +1,37 @@
-import { useRef } from "react";
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
 import data from "../helper/data.js";
-import { externalLinks } from "../helper/data.js";
-import SocialIcons from "./socialIcons.jsx";
+import styled from "styled-components";
+import { useEffect, useRef } from "react";
 
 const Navbar = () => {
-  const refContainer = useRef(null);
-  // const heightContainer = useRef(null);
+  const heightContainer = useRef(null);
 
-  // useEffect(() => {
-  //   const navHeight = heightContainer.current.getBoundingClientRect().height;
-  //   const offset = window.pageYOffset;
-  //   if (offset > navHeight) {
-  //     heightContainer.current.classList.add("fix-navbar");
-  //   }
-  // }, []);
-
-  const toggleSidebar = (type) => {
-    if (type === "show") {
-      refContainer.current.classList.add("show-sidebar");
-    } else {
-      refContainer.current.classList.remove("show-sidebar");
-    }
+  const styles = {
+    position: "fixed",
+    top: 0,
+    left: 0,
+    backgroundColor: "white",
+    zIndex: 10,
   };
 
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      const navHeight = heightContainer.current.getBoundingClientRect().height;
+      const offset = window.pageYOffset;
+      if (offset > navHeight) {
+        heightContainer.current.style = styles;
+      }
+    });
+  }, []);
+
   return (
-    <nav className="navbar">
-      <div className="nav-container">
+    <Wrapper className="navbar" ref={heightContainer}>
+      <section className="section-center">
         <article className="nav-header">
-          <div className="logo-container">
-            <img src="./images/logo.svg" alt="CHIRAG" />
-          </div>
-          <button
-            type="button"
-            className="bars"
-            onClick={() => toggleSidebar("show")}
-          >
-            <FaBars />
-          </button>
+          <img src="./images/logo.svg" alt="CHIRAG" />
         </article>
 
-        <aside className="nav-body" ref={refContainer}>
-          <div className="close-btn-container">
-            <button
-              type="button"
-              className="close-btn"
-              onClick={() => toggleSidebar("hide")}
-            >
-              <FaTimes />
-            </button>
-          </div>
+        <article className="nav-info">
           <ul className="nav-links">
             {data.map((item) => {
               const { id, name, path } = item;
@@ -61,11 +42,55 @@ const Navbar = () => {
               );
             })}
           </ul>
-          <SocialIcons externalLinks={externalLinks} classname="nav-icons" />
-        </aside>
-      </div>
-    </nav>
+        </article>
+      </section>
+    </Wrapper>
   );
 };
+
+const Wrapper = styled.nav`
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+    background-color: var(--clr-primary6);
+
+    .section-center {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      place-items: center;
+
+      .nav-header {
+        width: 10rem;
+        img {
+          width: 100%;
+        }
+      }
+
+      .nav-info {
+        justify-self: end;
+        .nav-links {
+          display: flex;
+          gap: 0 3rem;
+
+          li {
+            letter-spacing: 0.2rem;
+          }
+
+          li > * {
+            font-family: var(--font-secondary) !important;
+            font-weight: 600;
+            color: var(--clr-darkgrey);
+
+            &:hover {
+              color: var(--clr-primary5);
+              transition: var(--main-transition);
+            }
+          }
+        }
+      }
+    }
+  }
+`;
 
 export default Navbar;
