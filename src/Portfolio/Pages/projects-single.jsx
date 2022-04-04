@@ -18,7 +18,7 @@ const ProjectSingle = () => {
           {projects.map((project) => {
             if (Array.isArray(project)) {
               return (
-                <h2 key={uuidv4()} className="project-title">
+                <h2 key={uuidv4()} className="project-single-title">
                   {project[0]}
                 </h2>
               );

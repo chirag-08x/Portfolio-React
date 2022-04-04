@@ -23,16 +23,10 @@ const Home = () => {
           <article className="user-info">
             <div className="overline"></div>
             <h1 className="user-name">I'm chirag</h1>
-            <h5 className="subtitle">
-              frontend developer and database designer
-            </h5>
+            <h5 className="subtitle">frontend react developer</h5>
             <Link to={"/contact"} className="btn about-btn">
               hire me
             </Link>
-            {/* <SocialIcons
-              externalLinks={externalLinks}
-              classname="social-icons"
-            /> */}
             <SocialIcons
               externalLinks={externalLinks}
               classname="social-icons"
@@ -56,24 +50,8 @@ const Home = () => {
       <Connect />
       <Skills />
       <Timeline />
-      {/* <Footer /> */}
     </>
   );
 };
 
 export default Home;
-
-// export const SocialIcons = ({ externalLinks }) => {
-//   return (
-//     <article className="social-icons">
-//       {externalLinks.map((social) => {
-//         const { id, icon, navigate } = social;
-//         return (
-//           <a key={id} href={navigate} target="_blank">
-//             {icon}
-//           </a>
-//         );
-//       })}
-//     </article>
-//   );
-// };

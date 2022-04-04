@@ -59,26 +59,26 @@ export const externalLinks = [
 export const projects = [
   {
     id: uuidv4(),
-    image: "./images/project-1.jpeg",
+    image: "./images/main-project-img/prjct-1.png",
     title: "Sorting Visualizer",
+    path: "https://sorting-visualizer08x.netlify.app",
+  },
+  {
+    id: uuidv4(),
+    image: "./images/main-project-img/prjct-3.png",
+    title: "Comfy Sloth Store",
+    path: "https://comfy-store08x.netlify.app",
+  },
+  {
+    id: uuidv4(),
+    image: "./images/dummy.jpeg",
+    title: "Github User Analytics",
     path: "#",
   },
   {
     id: uuidv4(),
-    image: "./images/project-2.jpeg",
-    title: "Pathfinding Visualizer",
-    path: "#",
-  },
-  {
-    id: uuidv4(),
-    image: "./images/project-3.jpeg",
-    title: "E-commerce Site",
-    path: "#",
-  },
-  {
-    id: uuidv4(),
-    image: "./images/project-4.jpeg",
-    title: "Chat App",
+    image: "./images/dummy.jpeg",
+    title: "College ERP",
     path: "#",
   },
 ];

@@ -16,6 +16,7 @@
   --clr-primary6: #fffaeb;
   --clr-primary7: #fceec5;
   --clr-primary8: #f5d591;
+  --clr-primary9: #dd9e00;
   --clr-white: #fff;
   --clr-dark: #211c1e;
   --clr-lightgrey: #617d98;
@@ -122,6 +123,10 @@ button {
 .hero-home {
   display: grid;
   place-items: center;
+}
+
+.user-info {
+  justify-self: start;
 }
 
 .user-img {
@@ -422,21 +427,31 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .single-project {
   position: relative;
   height: 200px;
   border-radius: 0.3rem;
-  background: var(--clr-primary5);
+  background: var(--clr-primary2);
+  border: 3px solid rgb(80, 80, 80);
 }
 
 .single-project img {
   border-radius: 0.3rem;
 }
 
-.single-project:hover {
-  opacity: 0.5;
+.single-project:hover .home-project {
+  opacity: 0.15;
+  transition: var(--main-transition);
+}
+
+.single-project:hover .project-name {
+  z-index: 1;
 }
 
 @media screen and (min-width: 768px) {
@@ -960,17 +975,18 @@ textarea {
   padding: 0;
 }
 
-.project-title {
+.project-single-title {
   text-transform: capitalize;
   letter-spacing: 1px;
   grid-column: 1/-1;
-  text-decoration: underline;
-  padding: 1rem 0;
+  padding: 2rem 0;
   color: var(--clr-brown);
+  text-align: center;
+  text-decoration: underline;
 }
 
 .all-projects {
-  padding: 5rem 0;
+  padding: 1rem 0 5rem 0;
   display: grid;
   gap: 2rem 0;
 }

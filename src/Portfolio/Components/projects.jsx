@@ -22,8 +22,13 @@ const Projects = () => {
             const { id, image, title, path } = project;
             return (
               <div key={id} className={`single-project project-${index + 1}`}>
-                <a href={path} className="project-link">
-                  <img src={image} alt="project" />
+                <a
+                  href={path}
+                  className="project-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={image} alt="project" className="home-project" />
                 </a>
                 <p className="project-name">{title}</p>
               </div>
