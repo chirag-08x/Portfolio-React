@@ -1,6 +1,7 @@
 import { externalLinks } from "../helper/data.js";
 import SocialIcons from "./socialIcons.jsx";
 import styled from "styled-components";
+import React from "react";
 
 const Footer = () => {
   const date = new Date().getFullYear();

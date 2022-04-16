@@ -1,4 +1,5 @@
 import { projects } from "../helper/data.js";
+import React from "react";
 
 const Projects = () => {
   return (
@@ -26,7 +27,7 @@ const Projects = () => {
                   href={path}
                   className="project-link"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img src={image} alt="project" className="home-project" />
                 </a>

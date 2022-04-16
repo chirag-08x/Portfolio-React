@@ -1,5 +1,6 @@
 import { frontend } from "../helper/data.js";
 import { otherskills } from "../helper/data.js";
+import React from "react";
 
 const Skills = () => {
   return (

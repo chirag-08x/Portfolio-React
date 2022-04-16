@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import data from "../helper/data.js";
 import styled from "styled-components";
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 
 const Navbar = () => {
   const heightContainer = useRef(null);

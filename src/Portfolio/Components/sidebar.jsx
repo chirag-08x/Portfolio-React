@@ -5,7 +5,7 @@ import data from "../helper/data.js";
 import { Link } from "react-router-dom";
 import SocialIcons from "./socialIcons.jsx";
 import { externalLinks } from "../helper/data.js";
-import { useRef } from "react";
+import React, { useRef } from "react";
 
 const Sidebar = () => {
   const refContainer = useRef(null);

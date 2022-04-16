@@ -1,4 +1,5 @@
 import { timeline } from "../helper/data.js";
+import React from "react";
 
 const Timeline = () => {
   return (

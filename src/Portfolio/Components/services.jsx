@@ -1,4 +1,5 @@
 import { FaCode, FaDatabase, FaGem } from "react-icons/fa";
+import React from "react";
 
 const Services = () => {
   return (

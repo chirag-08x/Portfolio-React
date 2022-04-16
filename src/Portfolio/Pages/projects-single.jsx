@@ -1,7 +1,7 @@
 import projects from "../helper/projects-data.js";
 import { v4 as uuidv4 } from "uuid";
 import { FaGithub, FaHome } from "react-icons/fa";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 
 const ProjectSingle = () => {
   useEffect(() => {
@@ -35,13 +35,17 @@ const ProjectSingle = () => {
                       href={path}
                       className="name"
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       {name}
                     </a>
                     <p className="project-text">{text}</p>
                     <div className="github-link">
-                      <a href={github} target="_blank" rel="noreferrer">
+                      <a
+                        href={github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <FaGithub />
                       </a>
                       <p>source code</p>

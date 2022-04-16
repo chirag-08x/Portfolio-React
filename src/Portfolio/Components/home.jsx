@@ -1,6 +1,7 @@
 import { externalLinks } from "../helper/data.js";
 import { Link } from "react-router-dom";
 import SocialIcons from "./socialIcons.jsx";
+import React from "react";
 
 import About from "./about";
 import Services from "./services";

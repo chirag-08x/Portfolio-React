@@ -2,7 +2,7 @@ import { personalInfo } from "../helper/data.js";
 import { v4 as uuidv4 } from "uuid";
 import { useForm } from "@formspree/react";
 import Modal from "./modal";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 const ContactSingle = () => {
   const [state, handleSubmit] = useForm("xdobarle");
