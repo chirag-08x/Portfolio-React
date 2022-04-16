@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 
 const AboutSingle = () => {
-  useEffect(() => {
-    document.title = "Chirag || About";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "Chirag || About";
+  // }, []);
 
   return (
     <section className="single-section">

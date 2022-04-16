@@ -8,9 +8,9 @@ const ContactSingle = () => {
   const [state, handleSubmit] = useForm("xdobarle");
   const [modal, setModal] = useState(false);
 
-  useEffect(() => {
-    document.title = "Chirag || Contact";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "Chirag || Contact";
+  // }, []);
 
   const openModal = () => {
     setModal(true);
