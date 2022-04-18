@@ -3,21 +3,24 @@ const projects = [
   {
     name: "sorting visualizer",
     path: "https://sorting-visualizer08x.netlify.app/",
-    text: "Welcome to Sorting Visualizer. This app is build to visualize famous sorting algorithm like Merge Sort, Quick Sort, Heap Sort and Bubble Sort.",
+    text:
+      "Welcome to Sorting Visualizer. This app is build to visualize famous sorting algorithm like Merge Sort, Quick Sort, Heap Sort and Bubble Sort.",
     github: "https://github.com/chirag-08x/Sorting-Visualizer",
     image: "./images/main-project-img/prjct-1.png",
   },
   {
     name: "Comfy Sloth Store",
     path: "https://comfy-store08x.netlify.app/",
-    text: "An online e-commerce where you can choose from variety of products and buy what's best suited for your house.",
+    text:
+      "An online e-commerce where you can choose from variety of products and buy what's best suited for your house.",
     github: "https://github.com/chirag-08x/Comfy-Store",
     image: "./images/main-project-img/prjct-3.png",
   },
   {
     name: "Portfolio",
     path: "https://chirag08x.netlify.app/",
-    text: "My Portfolio where you can connect with me, and can find all the other information about me, including all the projects that I have built.",
+    text:
+      "My Portfolio where you can connect with me, and can find all the other information about me, including all the projects that I have built.",
     github: "https://github.com/chirag-08x/Portfolio-React",
     image: "./images/main-project-img/prjct-5.png",
   },
@@ -27,7 +30,8 @@ const projects = [
   {
     name: "birthday reminder",
     path: "https://birthday-reminder-08x.netlify.app/",
-    text: "A simple birthday reminder app which lets you know when your birthday is.",
+    text:
+      "A simple birthday reminder app which lets you know when your birthday is.",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
     image: "./images/react-project-img/prjct-1.png",
@@ -35,7 +39,8 @@ const projects = [
   {
     name: "tours",
     path: "https://tours-08x.netlify.app/",
-    text: "A simple tours app which lets you explore countries around the world.",
+    text:
+      "A simple tours app which lets you explore countries around the world.",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
     image: "./images/react-project-img/prjct-2.png",
@@ -75,7 +80,8 @@ const projects = [
   {
     name: "slider",
     path: "#",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
+    text:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
     image: "./images/dummy.jpeg",
@@ -83,7 +89,8 @@ const projects = [
   {
     name: "lorem ipsum",
     path: "https://lorem-generator-08x.netlify.app/",
-    text: "A simple Lorem Ipsum Generator App where you can choose the number of lorem ipsum paragraphs you want and the app will generate it, built using React.",
+    text:
+      "A simple Lorem Ipsum Generator App where you can choose the number of lorem ipsum paragraphs you want and the app will generate it, built using React.",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
     image: "./images/react-project-img/prjct-8.png",
@@ -91,7 +98,8 @@ const projects = [
   {
     name: "color generator",
     path: "https://color-generator-08x.netlify.app/",
-    text: "A simple color generator app which generates 20 shades of any given color value.",
+    text:
+      "A simple color generator app which generates 20 shades of any given color value.",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
     image: "./images/react-project-img/prjct-9.png",
@@ -99,7 +107,8 @@ const projects = [
   {
     name: "grocery bud",
     path: "https://grocery-bud-08x.netlify.app/",
-    text: "A simple Grocery List App where you can add, remove, edit, items in the grocery list.",
+    text:
+      "A simple Grocery List App where you can add, remove, edit, items in the grocery list.",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
     image: "./images/react-project-img/prjct-10.png",
@@ -123,7 +132,8 @@ const projects = [
   {
     name: "stripe menu",
     path: "#",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
+    text:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
     image: "./images/dummy.jpeg",
@@ -139,7 +149,8 @@ const projects = [
   {
     name: "cocktails",
     path: "https://cocktail-08x.netlify.app/",
-    text: "A simple cocktail app where you can search your favorite cocktail, and can find details about it.",
+    text:
+      "A simple cocktail app where you can search your favorite cocktail, and can find details about it.",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
     image: "./images/react-project-img/prjct-15.png",
@@ -147,7 +158,8 @@ const projects = [
   {
     name: "markdown preview",
     path: "https://markdown-08x.netlify.app/",
-    text: "A simple Markdown app for creating formatted text using a plain-text editor.",
+    text:
+      "A simple Markdown app for creating formatted text using a plain-text editor.",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
     image: "./images/react-project-img/prjct-16.png",
@@ -155,7 +167,8 @@ const projects = [
   {
     name: "random person",
     path: "https://random-person-08x.netlify.app/",
-    text: "A simple App where you can fetch random users from random person API.",
+    text:
+      "A simple App where you can fetch random users from random person API.",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
     image: "./images/react-project-img/prjct-17.png",
@@ -170,8 +183,9 @@ const projects = [
   },
   {
     name: "infinite scroll",
-    path: "#",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
+    path: "https://infinite-scroll-08x.netlify.app/",
+    text:
+      "A simple app where you can scroll through photos infinitely they will never end.",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
     image: "./images/dummy.jpeg",
@@ -187,7 +201,8 @@ const projects = [
   {
     name: "movies db",
     path: "https://moviesdb-08x.netlify.app/",
-    text: "A simple movies App where you can search your favorite movies and can find other details about them, built using MoviesDB API with React.",
+    text:
+      "A simple movies App where you can search your favorite movies and can find other details about them, built using MoviesDB API with React.",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
     image: "./images/react-project-img/prjct-21.png",
@@ -195,7 +210,8 @@ const projects = [
   {
     name: "hacker news",
     path: "https://news-08x.netlify.app/",
-    text: "A simple News App where you can read latest news and can even search topics that you want to explore, built using React.",
+    text:
+      "A simple News App where you can read latest news and can even search topics that you want to explore, built using React.",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
     image: "./images/react-project-img/prjct-22.png",
@@ -203,7 +219,8 @@ const projects = [
   {
     name: "quiz",
     path: "#",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
+    text:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
     image: "./images/dummy.jpeg",
@@ -213,14 +230,16 @@ const projects = [
   {
     name: "color flipper",
     path: "https://chirag-08x.github.io/Color-Filpper/",
-    text: "A simple color flipper app that will generate new color on every click.",
+    text:
+      "A simple color flipper app that will generate new color on every click.",
     github: "https://github.com/chirag-08x/Color-Filpper",
     image: "./images/js-project-img/prjct-1.png",
   },
   {
     name: "counter",
     path: "https://chirag-08x.github.io/Counter/",
-    text: "A simple counter app where you can increase or decrease current number by 1 and can also set it back to default 0.",
+    text:
+      "A simple counter app where you can increase or decrease current number by 1 and can also set it back to default 0.",
     github: "https://github.com/chirag-08x/Counter",
     image: "./images/js-project-img/prjct-2.png",
   },
@@ -262,7 +281,8 @@ const projects = [
   {
     name: "menu",
     path: "https://chirag-08x.github.io/Menu/",
-    text: "A simple food and drinks menu app where you can choose variety of foods and drinks of your choice.",
+    text:
+      "A simple food and drinks menu app where you can choose variety of foods and drinks of your choice.",
     github: "https://github.com/chirag-08x/Menu",
     image: "./images/js-project-img/prjct-8.png",
   },
@@ -283,7 +303,8 @@ const projects = [
   {
     name: "smooth scroll",
     path: "https://chirag-08x.github.io/Smooth-Scroll/",
-    text: "A simple smooth scroll app where you can smoothly scroll through a page.",
+    text:
+      "A simple smooth scroll app where you can smoothly scroll through a page.",
     github: "https://github.com/chirag-08x/Smooth-Scroll",
     image: "./images/js-project-img/prjct-11.png",
   },
@@ -304,7 +325,8 @@ const projects = [
   {
     name: "grocery bud",
     path: "https://chirag-08x.github.io/Grocery-Bud/",
-    text: "A simple cart where you can add, edit or remove items of your choice.",
+    text:
+      "A simple cart where you can add, edit or remove items of your choice.",
     github: "https://github.com/chirag-08x/Grocery-Bud",
     image: "./images/js-project-img/prjct-14.png",
   },
@@ -332,7 +354,8 @@ const projects = [
   {
     name: "cocktails API",
     path: "https://cocktail-ajax.netlify.app/",
-    text: "Simple Cocktail App where you can search and find details about your favorite cocktails.",
+    text:
+      "Simple Cocktail App where you can search and find details about your favorite cocktails.",
     github: "https://github.com/chirag-08x/Cocktails",
     image: "./images/js-project-img/prjct-18.png",
   },
