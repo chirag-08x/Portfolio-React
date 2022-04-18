@@ -9,7 +9,6 @@ import Sidebar from "./Portfolio/Components/sidebar";
 import AboutSingle from "./Portfolio/Pages/about-single";
 import ContactSingle from "./Portfolio/Pages/contact-single";
 import ProjectSingle from "./Portfolio/Pages/projects-single";
-import ThankYou from "./Portfolio/Pages/thankyou";
 
 document.title = "Chirag";
 
@@ -24,7 +23,6 @@ const Main = () => {
           <Route path="/contact" element={<ContactSingle />} />
           <Route path="/about" element={<AboutSingle />} />
           <Route path="/projects" element={<ProjectSingle />} />
-          <Route path="/thankyou" element={<ThankYou />} />
         </Routes>
         <Footer />
       </Router>
