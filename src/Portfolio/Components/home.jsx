@@ -4,7 +4,7 @@ import SocialIcons from "./socialIcons.jsx";
 import React from "react";
 
 import About from "./about";
-import Services from "./services";
+// import Services from "./services";
 import Projects from "./projects.jsx";
 import Connect from "./connect.jsx";
 import Skills from "./skills.jsx";
@@ -36,7 +36,7 @@ const Home = () => {
           <article className="user-img">
             <figure className="user-img-container">
               <img
-                src="./images/hero-img.jpeg"
+                src="./images/hero-main.png"
                 alt="user"
                 className="user-image"
               />
@@ -46,7 +46,7 @@ const Home = () => {
       </section>
 
       <About />
-      <Services />
+      {/* <Services /> */}
       <Projects />
       <Connect />
       <Skills />

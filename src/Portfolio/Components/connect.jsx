@@ -16,11 +16,11 @@ const Connect = () => {
         <h1 className="title">let's get in touch</h1>
         <div className="underline connect-underline"></div>
         <p className="subtitle connect-subtitle">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ratione
-          perferendis exercitationem sit. Beatae eius commodi officiis rem
-          soluta ratione dignissimos quisquam tempore laudantium, porro vitae
-          cupiditate dicta magni quas corrupti aperiam, rerum minus odio totam
-          repellendus delectus nostrum veniam!
+          If you are trying to get a hold of me you can click on the button
+          given below which will redirect you to a form which you can fill to
+          contact me. Also I am currently open to work, if you have something
+          for me, feel free to connect with me. You can also connect with me on
+          social media apps, links of those apps are given in footer.
         </p>
         <Link to={"/contact"} className="btn connect-btn">
           contact me

@@ -115,37 +115,37 @@ export const timeline = [
     id: uuidv4(),
     year: 2017,
     text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consequuntur voluptates tempore numquam? Quidem incidunt fugit quasi autem, ea excepturi.",
+      "Wrote my first line of code in School. I started out with Java. Learned basic concepts of Java and how high level code is compiled down to low level language.",
   },
   {
     id: uuidv4(),
     year: 2018,
     text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consequuntur voluptates tempore numquam? Quidem incidunt fugit quasi autem, ea excepturi.",
+      "Explored more concepts of Java and got little advanced into it, got the idea why programming is important and what all amazing things we can do with few lines of code.",
   },
   {
     id: uuidv4(),
     year: 2019,
     text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consequuntur voluptates tempore numquam? Quidem incidunt fugit quasi autem, ea excepturi.",
+      "Started learning C programming language and kept on exploring what all other lamguages are out there. Learned some new data structure like stack, queue, deque etc.",
   },
   {
     id: uuidv4(),
     year: 2020,
     text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consequuntur voluptates tempore numquam? Quidem incidunt fugit quasi autem, ea excepturi.",
+      "Started learning DSA as a part of my school project. Got to know some amazing and new data structures which I have never heard of like Linked List, Trees, Binary Trees etc.",
   },
   {
     id: uuidv4(),
     year: 2021,
     text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consequuntur voluptates tempore numquam? Quidem incidunt fugit quasi autem, ea excepturi.",
+      "Explored what WEB is and started learning HTML and CSS, and decided to pursue my carrer in frontend engineering only. After that I started with JS, and got to know why is it so important especially for web development and build several projects using JS.",
   },
   {
     id: uuidv4(),
     year: 2022,
     text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consequuntur voluptates tempore numquam? Quidem incidunt fugit quasi autem, ea excepturi.",
+      "Started exploring frontend libraries and finally decided to go with React. Probably one of my best decisions. I immediately fell in love with REACT and learned all the cool things that we can do with it, also build several projects with React. ",
   },
 ];
 

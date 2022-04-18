@@ -4,9 +4,9 @@ import { FaGithub, FaHome } from "react-icons/fa";
 import React, { useEffect } from "react";
 
 const ProjectSingle = () => {
-  // useEffect(() => {
-  //   document.title = "Chirag || Projects";
-  // }, []);
+  useEffect(() => {
+    document.title = "Chirag || Projects";
+  }, []);
   return (
     <section className="single-project-section">
       <article className="single-project-title">

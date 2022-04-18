@@ -9,12 +9,9 @@ const Projects = () => {
           <h1 className="title project-title">projects</h1>
           <div className="underline project-underline"></div>
           <p className="project-subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            repudiandae cupiditate ea facilis incidunt, non sapiente! Debitis
-            magnam, earum assumenda obcaecati cum quaerat facere ratione
-            molestiae dignissimos aliquid blanditiis architecto voluptates
-            delectus voluptate animi nulla! Autem explicabo perspiciatis officia
-            ea.
+            Projects are the best way to test out your skills and how much you
+            have learned so far. Here are some of the projects that I have
+            build. You can find my other projects under Projects section.
           </p>
         </article>
 

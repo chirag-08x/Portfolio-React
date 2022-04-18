@@ -393,6 +393,7 @@ button {
 
 .projects {
   padding: 5rem 0;
+  background-color: var(--clr-lightgrey2);
 }
 
 .project-title {
@@ -493,7 +494,7 @@ button {
 .connect-center {
   height: 100vh;
   clip-path: polygon(50% 0, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
-  background: cyan;
+  /* background: cyan; */
   margin: 5rem 0;
   position: relative;
 }
@@ -502,7 +503,8 @@ button {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  background: red;
+  /* background: red; */
+  background: var(--clr-lightgrey2);
   z-index: 1;
 }
 
