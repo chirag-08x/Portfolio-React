@@ -188,7 +188,7 @@ const projects = [
       "A simple app where you can scroll through photos infinitely they will never end.",
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
-    image: "./images/dummy.jpeg",
+    image: "./images/react-project-img/prjct-19.png",
   },
   {
     name: "dark mode",
