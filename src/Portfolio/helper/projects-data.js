@@ -130,15 +130,6 @@ const projects = [
     image: "./images/react-project-img/prjct-12.png",
   },
   {
-    name: "stripe menu",
-    path: "#",
-    text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
-    github:
-      "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
-    image: "./images/dummy.jpeg",
-  },
-  {
     name: "cart",
     path: "https://cart-08x.netlify.app/",
     text: "A simple cart in which you can add, remove items.",
