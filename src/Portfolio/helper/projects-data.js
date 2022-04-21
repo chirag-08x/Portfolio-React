@@ -323,9 +323,9 @@ const projects = [
   },
   {
     name: "slider",
-    path: "https://chirag-08x.github.io/ES6-Slider/",
+    path: "https://chirag-08x.github.io/js-Slider",
     text: "A simple slider which let's you switch between photos smoothly.",
-    github: "https://github.com/chirag-08x/ES6-Slider",
+    github: "https://github.com/chirag-08x/js-Slider",
     image: "./images/js-project-img/prjct-15.png",
   },
   {
