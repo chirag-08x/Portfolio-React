@@ -6,11 +6,7 @@ const About = () => {
     <section className="section-center about">
       <article className="about-img-container">
         <figure className="about-hero-img">
-          <img
-            src="./images/about-main.jpg"
-            alt="about"
-            className="about-img"
-          />
+          <img src="./images/hero-main.png" alt="about" className="about-img" />
         </figure>
       </article>
       <article className="about-info-container">
