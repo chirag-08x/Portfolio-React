@@ -18,7 +18,7 @@ const projects = [
   },
   {
     name: "Portfolio",
-    path: "https://chirag08x.netlify.app/",
+    path: "https://www.chirag08x.me/",
     text:
       "My Portfolio where you can connect with me, and can find all the other information about me, including all the projects that I have built.",
     github: "https://github.com/chirag-08x/Portfolio-React",
