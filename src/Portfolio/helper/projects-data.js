@@ -1,6 +1,14 @@
 const projects = [
   ["projects"],
   {
+    name: "Trainboot",
+    path: "https://trainboot.netlify.app/",
+    text:
+      "Trainboot is an advanced Employee Training and Orientation Application designed to cater to the needs of organizations seeking efficient employee training and management solutions.",
+    github: "https://github.com/chirag-08x/trainboot",
+    image: "./images/main-project-img/prjct-4.png",
+  },
+  {
     name: "sorting visualizer",
     path: "https://sorting-visualizer08x.netlify.app/",
     text:
