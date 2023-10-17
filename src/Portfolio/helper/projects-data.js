@@ -228,7 +228,7 @@ const projects = [
   ["javascript projects"],
   {
     name: "color flipper",
-    path: "https://chirag-08x.github.io/Color-Filpper/",
+    path: "https://colour-flipper08x.netlify.app/",
     text:
       "A simple color flipper app that will generate new color on every click.",
     github: "https://github.com/chirag-08x/Color-Filpper",
@@ -236,7 +236,7 @@ const projects = [
   },
   {
     name: "counter",
-    path: "https://chirag-08x.github.io/Counter/",
+    path: "https://counter08x.netlify.app/",
     text:
       "A simple counter app where you can increase or decrease current number by 1 and can also set it back to default 0.",
     github: "https://github.com/chirag-08x/Counter",
@@ -244,42 +244,42 @@ const projects = [
   },
   {
     name: "reviews/quotes",
-    path: "https://chirag-08x.github.io/Reviews/",
+    path: "https://reviews08x.netlify.app/",
     text: "A simple app that reviews people.",
     github: "https://github.com/chirag-08x/Reviews",
     image: "./images/js-project-img/prjct-3.png",
   },
   {
     name: "navbar",
-    path: "https://chirag-08x.github.io/Navbar/",
+    path: "https://navbar08x.netlify.app/",
     text: "A simple responsive fully functional Navbar.",
     github: "https://github.com/chirag-08x/Navbar",
     image: "./images/js-project-img/prjct-4.png",
   },
   {
     name: "sidebar",
-    path: "https://chirag-08x.github.io/Sidebar/",
+    path: "https://sidebar08x.netlify.app/",
     text: "A simple responsive fully functional Sidebar.",
     github: "https://github.com/chirag-08x/Sidebar",
     image: "./images/js-project-img/prjct-5.png",
   },
   {
     name: "modal",
-    path: "https://chirag-08x.github.io/Modal/",
+    path: "https://modal08x.netlify.app/",
     text: "A simple responsive fully functional Sidebar.",
     github: "https://github.com/chirag-08x/Modal",
     image: "./images/js-project-img/prjct-6.png",
   },
   {
     name: "QnA",
-    path: "https://chirag-08x.github.io/QnA/",
+    path: "https://qna08x.netlify.app/",
     text: "Question and Answer App.",
     github: "https://github.com/chirag-08x/QnA",
     image: "./images/js-project-img/prjct-7.png",
   },
   {
     name: "menu",
-    path: "https://chirag-08x.github.io/Menu/",
+    path: "https://menu08x.netlify.app/",
     text:
       "A simple food and drinks menu app where you can choose variety of foods and drinks of your choice.",
     github: "https://github.com/chirag-08x/Menu",
@@ -287,21 +287,21 @@ const projects = [
   },
   {
     name: "video",
-    path: "https://chirag-08x.github.io/Video/",
+    path: "https://video08x.netlify.app/",
     text: "A simple video app where you can play and pause a video.",
     github: "https://github.com/chirag-08x/Video",
     image: "./images/js-project-img/prjct-9.png",
   },
   {
     name: "tabs",
-    path: "https://chirag-08x.github.io/Tabs/",
+    path: "https://tabs08x.netlify.app/",
     text: "A simple page that has multiple tabs where you can switch.",
     github: "https://github.com/chirag-08x/Tabs",
     image: "./images/js-project-img/prjct-10.png",
   },
   {
     name: "smooth scroll",
-    path: "https://chirag-08x.github.io/Smooth-Scroll/",
+    path: "https://smooth-scroll08x.netlify.app/",
     text:
       "A simple smooth scroll app where you can smoothly scroll through a page.",
     github: "https://github.com/chirag-08x/Smooth-Scroll",
@@ -309,21 +309,21 @@ const projects = [
   },
   {
     name: "countdown timer",
-    path: "https://chirag-08x.github.io/Countdown/",
+    path: "https://countdown08x.netlify.app/",
     text: "A countdown timer where you can set the time backwards.",
     github: "https://github.com/chirag-08x/Countdown",
     image: "./images/js-project-img/prjct-12.png",
   },
   {
     name: "lorem-ipsum generator",
-    path: "https://chirag-08x.github.io/Lorem-Ipsum-Generator/",
+    path: "https://lorem-generator08x.netlify.app/",
     text: "A simple app where you can generate lorem ipsum paragraphs.",
     github: "https://github.com/chirag-08x/Lorem-Ipsum-Generator",
     image: "./images/js-project-img/prjct-13.png",
   },
   {
     name: "grocery bud",
-    path: "https://chirag-08x.github.io/Grocery-Bud/",
+    path: "https://todo08x.netlify.app/",
     text:
       "A simple cart where you can add, edit or remove items of your choice.",
     github: "https://github.com/chirag-08x/Grocery-Bud",
@@ -331,7 +331,7 @@ const projects = [
   },
   {
     name: "slider",
-    path: "https://chirag-08x.github.io/js-Slider",
+    path: "https://todo08x.netlify.app/",
     text: "A simple slider which let's you switch between photos smoothly.",
     github: "https://github.com/chirag-08x/js-Slider",
     image: "./images/js-project-img/prjct-15.png",
