@@ -86,15 +86,6 @@ const projects = [
     image: "./images/react-project-img/prjct-6.png",
   },
   {
-    name: "slider",
-    path: "#",
-    text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
-    github:
-      "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
-    image: "./images/dummy.jpeg",
-  },
-  {
     name: "lorem ipsum",
     path: "https://lorem-generator-08x.netlify.app/",
     text:
@@ -214,15 +205,6 @@ const projects = [
     github:
       "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
     image: "./images/react-project-img/prjct-22.png",
-  },
-  {
-    name: "quiz",
-    path: "#",
-    text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet amet odit aperiam, provident cum possimus sapiente minus quos! Ipsum?",
-    github:
-      "https://github.com/chirag-08x/React/tree/main/03-Basic-Projects/basic-projects",
-    image: "./images/dummy.jpeg",
   },
 
   ["javascript projects"],

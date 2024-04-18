@@ -72,9 +72,9 @@ export const projects = [
   },
   {
     id: uuidv4(),
-    image: "./images/dummy.jpeg",
-    title: "Github User Analytics",
-    path: "#",
+    image: "./images/main-project-img/prjct-4.png",
+    title: "Trainboot",
+    path: "https://trainboot.netlify.app/",
   },
   {
     id: uuidv4(),
@@ -100,6 +100,16 @@ export const frontend = [
     title: "React",
     percent: "80%",
   },
+  {
+    id: uuidv4(),
+    title: "Redux",
+    percent: "80%",
+  },
+  {
+    id: uuidv4(),
+    title: "Typescript",
+    percent: "70%",
+  },
 ];
 
 export const otherskills = [
@@ -107,6 +117,11 @@ export const otherskills = [
     id: uuidv4(),
     title: "Python",
     percent: "80%",
+  },
+  {
+    id: uuidv4(),
+    title: "Github",
+    percent: "85%",
   },
 ];
 
@@ -146,6 +161,18 @@ export const timeline = [
     year: 2022,
     text:
       "Started exploring frontend libraries and finally decided to go with React. Probably one of my best decisions. I immediately fell in love with REACT and learned all the cool things that we can do with it, also build several projects with React. ",
+  },
+  {
+    id: uuidv4(),
+    year: 2023,
+    text:
+      "Initiated my career journey with a frontend developer internship at a startup, gaining insights into organizational dynamics. Subsequently, secured a React Developer internship and commenced freelance projects to enhance frontend skills.",
+  },
+  {
+    id: uuidv4(),
+    year: 2024,
+    text:
+      "Embarked on my professional tenure as a full-time Frontend Developer at a pioneering startup specializing in game-based learning solutions. Leveraging mentorship from seasoned colleagues, I acquired a diverse array of skills, enriching my expertise in frontend development while contributing to the innovative vision of the organization.",
   },
 ];
 

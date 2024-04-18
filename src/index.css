@@ -785,6 +785,11 @@ button {
   padding: 3rem 0;
 }
 
+.about-single-section {
+  background-color: var(--clr-primary);
+  padding: 3rem 0;
+}
+
 .about-single-center {
   display: flex;
   flex-direction: column;

@@ -14,10 +14,12 @@ const About = () => {
         <h1 className="title">about</h1>
         <div className="underline"></div>
         <p className="info">
-          I am a final year computer engineering student. I have been learning
-          and practicing frontend from quiet a long time now and got a good hold
-          of it. I love building websites and to work on new and interesting
-          projects.
+          I'm Chirag, a Computer Science graduate from India, passionate about
+          tackling complex problems to drive business growth through strategic
+          solutions. I have more than 1 year of experience as a Frontend
+          Developer.I am committed to staying updated with the latest trends and
+          technologies in software development, ensuring that I remain at the
+          forefront of the field.
         </p>
         <p className="info">
           I am really passionate about my work and love what I'm doing.I have a
