@@ -1,12 +1,28 @@
 const projects = [
   ["projects"],
   {
-    name: "Trainboot",
-    path: "https://trainboot.netlify.app/",
+    name: "Wynters Dreams",
+    path: "https://www.wyntersdreams.com/",
     text:
-      "Trainboot is an advanced Employee Training and Orientation Application designed to cater to the needs of organizations seeking efficient employee training and management solutions.",
-    github: "https://github.com/chirag-08x/trainboot",
+      "Wynter's Dreams is a digital bookstore that uses storytelling to spark curiosity and foster a love of learning. Offering curated, educational digital books, it creates a safe space where every story is an adventure.",
+    github: "https://github.com/chirag-08x/Wynters-Dreams",
     image: "./images/main-project-img/prjct-4.png",
+  },
+  {
+    name: "Evivve",
+    path: "https://app.evivve.com/evivve3/",
+    text:
+      "Evivve is a multiplayer online game-based learning tool that revolutionizes corporate learning by blending immersive gameplay with experiential learning.",
+    github: "https://github.com/chirag-08x/Evivve3",
+    image: "./images/main-project-img/prjct-3.png",
+  },
+  {
+    name: "Micro",
+    path: "https://www.getmicro.co/",
+    text:
+      "Micro was created in 2017 to simplify real estate investments through fractional ownership. We aim to make this vast market accessible and transparent for everyone.",
+    github: "#",
+    image: "./images/main-project-img/prjct-5.png",
   },
   {
     name: "sorting visualizer",
@@ -15,22 +31,6 @@ const projects = [
       "Welcome to Sorting Visualizer. This app is build to visualize famous sorting algorithm like Merge Sort, Quick Sort, Heap Sort and Bubble Sort.",
     github: "https://github.com/chirag-08x/Sorting-Visualizer",
     image: "./images/main-project-img/prjct-1.png",
-  },
-  {
-    name: "Comfy Sloth Store",
-    path: "https://comfy-store08x.netlify.app/",
-    text:
-      "An online e-commerce where you can choose from variety of products and buy what's best suited for your house.",
-    github: "https://github.com/chirag-08x/Comfy-Store",
-    image: "./images/main-project-img/prjct-3.png",
-  },
-  {
-    name: "Portfolio",
-    path: "https://www.chirag08x.me/",
-    text:
-      "My Portfolio where you can connect with me, and can find all the other information about me, including all the projects that I have built.",
-    github: "https://github.com/chirag-08x/Portfolio-React",
-    image: "./images/main-project-img/prjct-5.png",
   },
 
   ["react projects"],
