@@ -93,12 +93,12 @@ export const frontend = [
   {
     id: uuidv4(),
     title: "javascipt",
-    percent: "70%",
+    percent: "80%",
   },
   {
     id: uuidv4(),
     title: "React",
-    percent: "80%",
+    percent: "95%",
   },
   {
     id: uuidv4(),
@@ -110,6 +110,12 @@ export const frontend = [
     title: "Typescript",
     percent: "70%",
   },
+  {
+    id: uuidv4(),
+    title: "Next.js",
+    percent: "75%",
+  },
+ 
 ];
 
 export const otherskills = [
@@ -122,6 +128,21 @@ export const otherskills = [
     id: uuidv4(),
     title: "Github",
     percent: "85%",
+  },
+  {
+    id: uuidv4(),
+    title: "Tailwind CSS",
+    percent: "85%",
+  },
+  {
+    id: uuidv4(),
+    title: "Material UI",
+    percent: "80%",
+  },
+  {
+    id: uuidv4(),
+    title: "Zustand",
+    percent: "90%",
   },
 ];
 
@@ -174,6 +195,13 @@ export const timeline = [
     text:
       "Embarked on my professional tenure as a full-time Frontend Developer at a pioneering startup specializing in game-based learning solutions. Leveraging mentorship from seasoned colleagues, I acquired a diverse array of skills, enriching my expertise in frontend development while contributing to the innovative vision of the organization.",
   },
+  {
+    id: uuidv4(),
+    year: 2025,
+    text:
+      "Took a significant leap in my career by joining Aventisia Technologies Pvt Ltd as a Senior Frontend Developer. Leading critical frontend initiatives, collaborating cross-functionally, and mentoring junior developers helped me grow both technically and professionally. I continue to deepen my expertise in modern web technologies while driving impactful user experiences.",
+  }
+  
 ];
 
 export const personalInfo = [

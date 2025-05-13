@@ -14,20 +14,11 @@ const About = () => {
         <h1 className="title">about</h1>
         <div className="underline"></div>
         <p className="info">
-          I'm Chirag, a Computer Science graduate from India, passionate about
-          tackling complex problems to drive business growth through strategic
-          solutions. I have more than 1 year of experience as a Frontend
-          Developer.I am committed to staying updated with the latest trends and
-          technologies in software development, ensuring that I remain at the
-          forefront of the field.
+        I’m Chirag, a Computer Science graduate from India with over 2 years of experience as a Frontend Developer. I specialize in building intuitive, high-performance user interfaces using modern frameworks and technologies. My passion lies in solving complex problems and delivering strategic solutions that contribute to meaningful business growth. I’m dedicated to staying current with the latest trends in software development to ensure my skills remain sharp and relevant in a fast-evolving industry.
+
         </p>
         <p className="info">
-          I am really passionate about my work and love what I'm doing.I have a
-          steady source of motivation that drives me to do my best. I thrive on
-          challenge and constantly set goals for myself, so I have something to
-          strive towards. I am an excellent communicator. I pride myself on
-          making sure people have the right information because it drives better
-          results.
+        I approach my work with enthusiasm and a strong sense of purpose. Challenges motivate me, and I constantly set new goals to push my abilities further. As an effective communicator, I prioritize clarity and collaboration, ensuring that everyone involved has the information they need to make informed decisions and achieve better results. I take pride in my work and strive to bring both technical excellence and a user-focused mindset to every project I take on.
         </p>
         <Link to={"/about"} className="btn about-btn">
           about me
